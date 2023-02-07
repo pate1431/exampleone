@@ -17,8 +17,8 @@ resource "azurerm_resource_group" "rg_one" {
     name = "resourceGroupOne"
     location = "canada-central"
     tags = {
-        name: "first"
-        method: "terraform"
+        name = "first"
+        method = "terraform"
 
     }
 }
